@@ -1,0 +1,111 @@
+p{
+    font-family: serif, sans-serif;
+    word-spacing: 3px;
+    color: rgb(132, 10, 6);
+}
+a{
+    color: rgb(38, 183, 246);
+}
+a:hover{
+    color: #ffbe01;
+}
+a:visited{
+    color:#7fffd4;
+}
+body{
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-radial-gradient(rgb(93, 174, 250), rgb(44, 114, 184));
+    background: radial-gradient(rgb(118, 186, 251), rgb(37, 104, 172));
+    background-image: url(./sky.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+blockquote{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-size: 160%;
+    background-color: rgb(199, 198, 198);
+    border-left: solid 3px rgb(178, 34, 34);
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+q.villager{
+    border-left:3px solid rgb(255, 18, 18);
+}
+q.farmer{
+    border-left:3px solid rgb(171, 255, 46);
+}
+header > h1
+{
+    background-color: #ffbe01;
+    text-align: center;
+}
+q{
+    font-style: italic;
+}
+.good, .bad{
+    text-transform: uppercase;
+}
+.good{
+    color: rgb(8, 206, 8);
+}
+.bad{
+    color: rgb(251, 32, 32);
+}
+.typeofpeople > li:nth-child(1){
+    background-image: url(./bien.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 28%;
+    padding-right: 20px;
+}
+.typeofpeople > li:nth-child(2){
+    background-image: url(mal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 27%;
+    padding-right: 30px;
+}
+.typeofpeople > li:nth-child(3){
+    background-image: url(./chat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    padding-right: 20px;
+}
+table, tr, td{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+th{
+    background-color: rgb(252, 251, 250);
+    border: 2px solid #000;
+}
+tr:nth-child(odd){
+    background-color: rgb(142, 141, 141);
+}
+tr:nth-child(even){
+    background-color: #ffff;
+}
+img{
+    max-width: 300px;
+    max-height: auto;
+}
+article{
+    display: flex;
+    align-items: center;
+}
+p.ar-p{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+    /* justify-content: center;   */
+}
